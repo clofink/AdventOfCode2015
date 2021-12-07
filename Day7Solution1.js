@@ -1,6 +1,6 @@
 
 function day7Solution1(data) {
-    data = data.split('\r\n');
+    data = data.split('\n');
     let variables = {};
     // each line ends with an assignment using ->
     // if we split on that, we can get the variable being assigned to and the expression that is being assigned
