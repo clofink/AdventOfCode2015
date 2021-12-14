@@ -48,6 +48,10 @@
     <script src="/Day13Solution2.js"></script>
     <script src="/Day14Solution1.js"></script>
     <script src="/Day14Solution2.js"></script>
+    <script src="/Day15Solution1.js"></script>
+    <script src="/Day15Solution2.js"></script>
+    <script src="/Day16Solution1.js"></script>
+    <script src="/Day16Solution2.js"></script>
 
     <table>
         <thead>
@@ -339,6 +343,46 @@
                 </td>
                 <td></td>
             </tr>
+            <tr>
+                <td class="puzzle">15.1</td>
+                <td>
+                    <button>Solve</button>
+                </td>
+                <td>
+                    <button>Solve</button>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="puzzle">15.2</td>
+                <td>
+                    <button>Solve</button>
+                </td>
+                <td>
+                    <button>Solve</button>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="puzzle">16.1</td>
+                <td>
+                    <button>Solve</button>
+                </td>
+                <td>
+                    <button>Solve</button>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="puzzle">16.2</td>
+                <td>
+                    <button>Solve</button>
+                </td>
+                <td>
+                    <button>Solve</button>
+                </td>
+                <td></td>
+            </tr>
         </tbody>
     </table>
     <script>
@@ -445,6 +489,19 @@
                 case "14.2":
                     drawSolutionToTable(day14Solution2(inputData), buttonClicked.closest('tr'));
                     break;
+                case "15.1":
+                    drawSolutionToTable(day15Solution1(inputData), buttonClicked.closest('tr'));
+                    break;
+                case "15.2":
+                    drawSolutionToTable(day15Solution2(inputData), buttonClicked.closest('tr'));
+                    break;
+                case "16.1":
+                    drawSolutionToTable(day16Solution1(inputData), buttonClicked.closest('tr'));
+                    break;
+                case "16.2":
+                    drawSolutionToTable(day16Solution2(inputData), buttonClicked.closest('tr'));
+                    break;
+
                 default:
                     console.assert('Not implemented');
             }
